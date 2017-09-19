@@ -1,10 +1,13 @@
 name 'workstation'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'Troy Fred'
+maintainer_email 'troyfredmsit@gmail.com'
 license 'all_rights'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.1.0'
+version '0.1.1'
+versioning syntax 'major,minor,increment'
+
+
 
 # If you upload to Supermarket you should set this so your cookbook
 # gets a `View Issues` link
