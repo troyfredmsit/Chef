@@ -1,0 +1,10 @@
+Commands
+
+git add . (means add all items in this directory to the tracked.)
+git add <file> simply adds that to the items tracked.
+git commit -m <message> commits all in the directory with the message 
+
+
+Chef-
+chef generate cookbook <path/name> generates a new cookbook and its mandatroy files
+
