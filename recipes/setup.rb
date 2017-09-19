@@ -1,25 +1,27 @@
 package 'vim-enhanced'
 package 'emacs'
 package 'nano'
+
 package 'git' do
-	action :install
-	
+        action :install
+
 end
+
 package 'tree' do
-	action :install
+        action :install
 end
 
 package 'ntp'
 
 file '/etc/motd' do
-	content 'This server is the property of GODMODE!.'
-	action :create
-	owner 'root'
-	group 'root'
+        content 'This server is the property of GODMODE!.'
+        action :create
+        owner 'root'
+        group 'root'
 end
 
 service 'ntpd' do
-	action [ :enable, :start]
+        action [ :enable, :start]
 
 end
 
