@@ -17,6 +17,8 @@ package 'ntp'
 ###THIS IS WITH THE ERB TEMPLATE #########
 template '/etc/motd' do
 	source 'motd.erb'
+	variables(:name => 'Godmode') 
+	# this is a variable that can be called in the template
 	action :create
 # The source can be anything like index.html.erb or php.ini.erb etc
 
