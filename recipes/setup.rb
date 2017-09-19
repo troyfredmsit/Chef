@@ -1,4 +1,3 @@
-# ~/setup.rb
 package 'vim-enhanced'
 package 'emacs'
 package 'nano'

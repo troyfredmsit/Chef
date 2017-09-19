@@ -11,4 +11,7 @@ git git push -u origin master (this pushes them up)
 
 CHEF:
 chef generate cookbook <path/name> generates a new cookbook and its mandatroy files
+chef generate recipe cookbooks/apache/ server (this makes a recipe called server.rb but also makes the tests AND the spec test)
+
+Deploy an apache web server :
 
