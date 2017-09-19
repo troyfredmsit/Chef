@@ -4,7 +4,7 @@ maintainer_email 'troyfredmsit@gmail.com'
 license 'all_rights'
 description 'Installs/Configures workstation'
 long_description 'Installs/Configures workstation'
-version '0.1.1'
+version '0.2.1'
 
 
 
