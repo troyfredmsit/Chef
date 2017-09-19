@@ -1,10 +1,14 @@
 Commands
 
+LOCAL GIT:
 git add . (means add all items in this directory to the tracked.)
 git add <file> simply adds that to the items tracked.
 git commit -m <message> commits all in the directory with the message 
 
+GITHUB:
+git remote add origin https://github.com/troyfredmsit/Chef.git (this adds the changes to the github)
+git git push -u origin master (this pushes them up) 
 
-Chef-
+CHEF:
 chef generate cookbook <path/name> generates a new cookbook and its mandatroy files
 
