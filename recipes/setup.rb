@@ -1,7 +1,7 @@
 # ~/setup.rb
 package 'vim-enhanced'
-package 'nano'
 package 'emacs'
+package 'nano'
 package 'git' do
 	action :install
 	
